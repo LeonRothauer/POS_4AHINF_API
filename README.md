@@ -11,7 +11,7 @@ Meine Idee bestand darin, eine API zu entwickeln, die es Benutzern ermöglicht, 
 ## Softwaredesign
 ```mermaid
 graph LR
-A(Web-App) -- gets Data --> C
+A(Web-App) -- gets and changes Data --> C
 B(WPF App) -- gets and changes Data --> C
 C(NotizAPI) -- stores Data and gets --> D
 D(MongoDB)
